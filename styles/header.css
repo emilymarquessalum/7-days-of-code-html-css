@@ -1,0 +1,76 @@
+ 
+
+.header {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background-color: var(--main-color);
+}
+
+
+.header__logo-div {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header__logo {
+    height: 100%;
+}
+
+.header__name {
+     
+    font-size: 18px;
+}
+
+
+.header__nav {
+    width: 30%;
+}
+
+.header__navlist {
+    
+    list-style-type: none;
+
+    display: flex;
+
+    justify-content: flex-start;
+
+}
+
+
+
+.header__link {
+    color: var(--light-color);
+    text-decoration: none;
+
+    margin: 0px 1vw;
+}
+
+.header__buttons {
+    display: flex;
+    width: 25%;
+
+    justify-content: flex-end;
+}
+
+.header__button {
+
+    border: none;
+
+    border-radius: 10%;
+    padding: 3% 5%;
+}
+
+.header__button-cadastrar {
+    background-color:#8E2424;
+    color: var(--main-color);
+}
+
+.header__button-entrar {
+    background-color: var(--main-color);
+    color: var(--light-color);
+}
