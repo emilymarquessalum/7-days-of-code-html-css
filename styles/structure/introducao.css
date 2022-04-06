@@ -15,3 +15,11 @@
     padding: 5vh 0px;
 
 }
+
+.introducao__conteudo { 
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+
+    line-height: 30px;
+}
