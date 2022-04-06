@@ -1,13 +1,4 @@
 
-:root {
-
-
-    --default-font: "Inter";
-
-    --main-color: #ffffff;
-    --light-color: #667085;
-}
-
 
 .text-medium { 
     font-family: var(--default-font);
@@ -16,6 +7,4 @@
     font-size: 16px;
 
 }
-
-
 

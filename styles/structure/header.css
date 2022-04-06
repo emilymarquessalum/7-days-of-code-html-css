@@ -64,11 +64,7 @@ header__logo {
     border-radius: 10%;
     padding: 3% 5%;
 }
-
-.header__button-cadastrar {
-    background-color:#8E2424;
-    color: var(--main-color);
-}
+ 
 
 .header__button-entrar {
     background-color: var(--main-color);
