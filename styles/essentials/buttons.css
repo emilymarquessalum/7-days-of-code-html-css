@@ -1,4 +1,10 @@
 
+.button { 
+    border: none; 
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-weight: 500;
+}
 
 .button-cadastrar {
     

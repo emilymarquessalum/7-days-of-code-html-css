@@ -1,8 +1,26 @@
 
 
-.text-medium { 
+.text {
+
     font-family: var(--default-font);
     font-style: normal;
+
+}
+
+.subtitle {
+
+
+    color: var(--wine-color);
+    font-weight: 600;
+}
+
+.texto-conteudo {
+color: #667085;
+font-weight: 400;
+}
+
+
+.text-medium {  
     font-weight: 500;
     font-size: 16px;
 

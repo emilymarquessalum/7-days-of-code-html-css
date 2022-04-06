@@ -11,10 +11,10 @@
 
 
 .header__logo-div {
-    width: 10%;
+    width: 20%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 header__logo {
@@ -24,11 +24,12 @@ header__logo {
 .header__name {
      
     font-size: 18px;
+    margin-left: 5%;
 }
 
 
 .header__nav {
-    width: 30%;
+    width: 40%;
 }
 
 .header__navlist {
@@ -52,18 +53,12 @@ header__logo {
 
 .header__buttons {
     display: flex;
-    width: 25%;
+    width: 20%;
 
     justify-content: flex-end;
 }
 
-.header__button {
-
-    border: none;
-
-    border-radius: 10%;
-    padding: 3% 5%;
-}
+ 
  
 
 .header__button-entrar {
