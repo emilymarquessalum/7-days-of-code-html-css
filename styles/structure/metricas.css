@@ -1,0 +1,29 @@
+
+
+.metricas {
+    display: flex;
+    justify-content: center;
+}
+
+.metricas__item {
+    width: 20%;
+}
+
+.metricas__item-numero {
+ 
+    font-size: 60px;
+    margin: 12px 0px;
+}
+
+.metricas__item-titulo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 8px 0px;
+    
+}
+
+.metricas__item-conteudo {
+    font-size: 16px;
+    line-height: 24px;
+}

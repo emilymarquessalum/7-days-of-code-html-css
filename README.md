@@ -19,6 +19,6 @@ Utilizei o padrão BEM para nomeação de classes, procurando exibir uma especif
 Para estilização geral e utilitários, utiliza-se a pasta Essentials.  
 
 ## Metas extras
-
+    
 - () Estilização Mobile
 - () Dist Performática (minificação) 
