@@ -21,4 +21,7 @@ Para estilização geral e utilitários, utiliza-se a pasta Essentials.
 ## Metas extras
     
 - () Estilização Mobile
-- () Dist Performática (minificação) 
+    Essencial para qualquer página na web.
+
+- (X) Dist Performática (minificação) 
+    Decidi que queria fazer isso porque recentemente assisti um curso de performance web para front-end e achei fascinante, queria praticar a aplicação de algumas técnicas.
