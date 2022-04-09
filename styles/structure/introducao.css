@@ -7,7 +7,7 @@
 
 .introducao__titulo {
 
-    color: #101828;
+    color: var(--black);
     font-weight: 600;
     font-size: 48px;
 
