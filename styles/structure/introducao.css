@@ -2,6 +2,7 @@
 .introducao {
 
     padding: 10vh 0px;
+    padding-bottom: 5vh;
 
 }
 
@@ -9,18 +10,24 @@
 
     color: var(--black);
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 50px;
  
     font-weight: 600;
-    padding: 5vh 0px;
+    padding: 50px 0px;
     letter-spacing: -0.05em;
+
+    text-align: center;
 
 }
 
-.introducao__conteudo { 
-    width: 50%;
-    text-align: center;
-    font-size: 1.25rem;
+.introducao__sobre-nos {
+    font-size: 16px;
+}
 
-    line-height: 1.8rem;
+.introducao__conteudo { 
+    width: 60%;
+    text-align: center;
+    font-size: 24px;
+
+    line-height: 28px;
 }

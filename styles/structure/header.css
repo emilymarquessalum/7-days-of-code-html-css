@@ -5,8 +5,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
     background-color: var(--main-color);
+    width: 100%;
 }
 
 
@@ -14,23 +15,26 @@
     width: 10%;
     display: flex;
     align-items: center;
+    order: 0;
+     
     justify-content: flex-start;
 }
 
-header__logo {
-    height: 100%;
+.header__logo {
+width: 27px;   
 }
 
 .header__name {
      
-    font-size: 1.1rem;
-    
+    font-size: 1.4vw;
+
     margin-left: 5%;
 }
 
 
 .header__nav {
     width: 40%;
+    order: 1;
 }
 
 .header__navlist {
@@ -39,6 +43,7 @@ header__logo {
 
     display: flex;
 
+    
     justify-content: flex-start;
 
 }
@@ -48,14 +53,16 @@ header__logo {
 .header__link {
     color: var(--light-color);
     text-decoration: none;
-
+    font-size: 1.4vw; 
     margin: 0px 1vw;
+    font-weight: 500;
 }
 
 .header__buttons {
     display: flex;
     width: 20%;
 
+    order: 2;
     justify-content: flex-end;
 }
 
@@ -65,4 +72,48 @@ header__logo {
 .header__button-entrar {
     background-color: var(--main-color);
     color: var(--light-color);
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        height: 50vh;
+        text-align: center;
+ 
+        justify-content: space-between;
+        padding-top: 5vh; 
+    }
+    
+    .header__nav {
+        width: 100%;
+    }
+
+    .header__navlist {
+        flex-direction: column;
+        justify-content: space-between;
+    height: 30vh;
+    margin: 6vh 0;
+    }
+   
+    .header__link {
+        font-size: 28px;
+    }
+
+    .header__name {
+        font-size: 20px;
+    }
+
+    .header__buttons {
+        justify-content: center;
+        width: 100%;
+        order: 0;
+        margin-top: 2vh;
+    }
+
+    .header__logo-div {    
+        margin-top: 4vh;
+    text-align: center;
+    justify-content: center;
+    }
 }
