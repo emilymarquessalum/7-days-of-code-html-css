@@ -20,8 +20,9 @@
     <link rel="stylesheet" href="styles/structure/introducao.css">
     <link rel="stylesheet" href="styles/structure/metricas.css">
     <link rel="stylesheet" href="styles/structure/vagas.css">
-    <link rel="stylesheet" href="styles/structure/footer.css">
     <link rel="stylesheet" href="styles/structure/depoimentos.css">
+    <link rel="stylesheet" href="styles/structure/footer.css">
+    <link rel="stylesheet" href="styles/structure/emailPromotions.css">
     <!--CSS-->
 
     <!-- Externals -->
@@ -52,8 +53,8 @@
 
 
         <div class="header__buttons">
-            <button class="button header__button-entrar">Entrar</button>
-            <button class="button button-cadastrar">Cadastrar</button>
+            <button class="button text header__button-entrar">Entrar</button>
+            <button class="button text button-cadastrar">Cadastrar</button>
         </div>
 
     </header>
@@ -61,12 +62,12 @@
 
     <main>
 
-        <section class="introducao container-center">
+        <section class="container-center introducao">
             <span class="subtitle text introducao__sobre-nos">
                 Sobre nós
             </span>
 
-            <h1 class="introducao__titulo text">
+            <h1 class="text title title introducao__titulo">
                 Por que somos diferentes?
             </h1>
 
@@ -83,9 +84,9 @@
             <div class="metricas__item">
 
 
-                <h2 class="metricas__item-numero text subtitle">400+</h2>
-                <h2 class="metricas__item-titulo text">Projetos concluídos</h2>
-                <p class="metricas__item-conteudo text text-conteudo">Nós ajudamos a construir mais de 400 projetos
+                <h2 class="text subtitle metricas__item-numero">400+</h2>
+                <h2 class="text metricas__item-titulo">Projetos concluídos</h2>
+                <p class="text text-conteudo metricas__item-conteudo">Nós ajudamos a construir mais de 400 projetos
                     incríveis.</p>
 
 
@@ -94,9 +95,9 @@
             <div class="metricas__item">
 
 
-                <h2 class="metricas__item-numero text subtitle">100+</h2>
-                <h2 class="metricas__item-titulo text">Colaboradores</h2>
-                <p class="metricas__item-conteudo text text-conteudo">Temos mais de 100 colaboradores no nosso time que
+                <h2 class="text subtitle metricas__item-numero">100+</h2>
+                <h2 class="text metricas__item-titulo">Colaboradores</h2>
+                <p class="text text-conteudo metricas__item-conteudo">Temos mais de 100 colaboradores no nosso time que
                     se preocupam com nossos clientes.</p>
 
             </div>
@@ -104,9 +105,9 @@
             <div class="metricas__item">
 
 
-                <h2 class="metricas__item-numero text subtitle">20k </h2>
-                <h2 class="metricas__item-titulo text">Downloads</h2>
-                <p class="metricas__item-conteudo text text-conteudo">Nossos projetos que estão disponíveis em lojas já
+                <h2 class="text subtitle metricas__item-numero">20k </h2>
+                <h2 class="text metricas__item-titulo">Downloads</h2>
+                <p class="text text-conteudo metricas__item-conteudo">Nossos projetos que estão disponíveis em lojas já
                     foram baixados mais de 20.000 vezes.</p>
 
 
@@ -115,9 +116,9 @@
             <div class="metricas__item">
 
 
-                <h2 class="metricas__item-numero text subtitle">500+</h2>
-                <h2 class="metricas__item-titulo text">Reviews 5 estrelas</h2>
-                <p class="metricas__item-conteudo text text-conteudo">Estamos orgulhosos de contar com mais de 500
+                <h2 class="text subtitle metricas__item-numero">500+</h2>
+                <h2 class="text metricas__item-titulo">Reviews 5 estrelas</h2>
+                <p class="text text-conteudo metricas__item-conteudo">Estamos orgulhosos de contar com mais de 500
                     reviews 5 estrelas em nossos
                     produtos.</p>
 
@@ -257,7 +258,7 @@
                 Veja o que nossos colaboradores falam sobre nós
             </p>
 
-            <h2 class="text depoimentos__title">
+            <h2 class="text title depoimentos__title">
                 OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de
                 auxílio
                 possível.
@@ -278,21 +279,29 @@
 
     <footer class="footer container-center">
 
-        <h2>
-            Acompanhe as nossas oportunidades
-        </h2>
-
-        <p>
-            Seja o primeiro a saber quando novas vagas serão abertas!
+        <section class="email-promotions">
+            <h2 class="text title email-promotions__titulo">
+                Acompanhe as nossas oportunidades
+            </h2>
+    
+            <p class="text email-promotions__conteudo">
+                Seja o primeiro a saber quando novas vagas serão abertas!
+            </p>
+    
+            <form class="email-promotions__form">
+                <input 
+                    class="text email-promotions__email-input"
+                    type="text" placeholder="Seu e-mail">
+    
+                <button class="button text button-cadastrar email-promotions__submit">
+                    Cadastrar
+                </button>    
+            </form>    
+        </section>
+        
+        <p class="text footer__direitos-reservados">
+            © 2022 OptimusTech. Todos os direitos reservados.
         </p>
-
-        <input type="text" placeholder="Seu e-mail">
-
-        <button class="button button-cadastrar">
-            Cadastrar
-        </button>
-
-        <p>© 2022 OptimusTech. Todos os direitos reservados.</p>
 
     </footer>
 

@@ -7,16 +7,12 @@
 }
 
 .introducao__titulo {
-
-    color: var(--black);
-    font-weight: 600;
-    font-size: 50px;
  
     font-weight: 600;
+    font-size: 50px; 
+    font-weight: 600;
     padding: 50px 0px;
-    letter-spacing: -0.05em;
-
-    text-align: center;
+    letter-spacing: -0.05em; 
 
 }
 

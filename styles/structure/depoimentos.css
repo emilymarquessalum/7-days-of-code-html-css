@@ -6,17 +6,17 @@
     width: 85%;
     margin: auto;
 
-    padding: 10vh 0px;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
 }
 
 .depoimentos__title {
-    font-weight: 500;
-font-size: 30px;
-line-height: 44px;
-
-text-align: center;
-margin-top: 2.5vh;
-width: 80%;
+    font-weight: 500;   
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em; 
+    margin-top: 2.5vh;
+    width: 80%;
 }
 
 .depoimentos__subtitle {
@@ -42,10 +42,11 @@ width: 80%;
     margin-bottom: 1.4vh;
     font-weight: 500;
     color: var(--black);
+    font-size: 16px;
 }
 
 .depoimentos__cargo {
-
+    font-size: 14px;
     color: var(--light-color);
     font-weight: 400;
 }
