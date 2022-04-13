@@ -1,5 +1,3 @@
-
-
 .text {
 
     font-family: var(--default-font);
@@ -9,7 +7,7 @@
 
 
 .title {
-    color: var(--black); 
+    color: var(--black);
     text-align: center;
 }
 
@@ -21,14 +19,13 @@
 }
 
 .text-conteudo {
-color: #667085;
-font-weight: 400;
+    color: #667085;
+    font-weight: 400;
 }
 
 
-.text-medium {  
+.text-medium {
     font-weight: 500;
-    font-size:20px;
+    font-size: 20px;
 
 }
-
