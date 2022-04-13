@@ -20,8 +20,8 @@ Para estilização geral e utilitários, utiliza-se a pasta Essentials.
 
 ## Metas extras
     
-- () Estilização Mobile
-    Essencial para qualquer página na web.
+- (X) Estilização Mobile
+    Modificações para melhor adequação para dispositivos mobile!
 
 - (X) Minificação por script
     Decidi que queria fazer isso porque recentemente assisti um curso de performance web para front-end e achei fascinante, queria praticar a aplicação de algumas técnicas. 
