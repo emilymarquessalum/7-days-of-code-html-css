@@ -28,12 +28,7 @@
     color: var(--light-color);
     font-weight: 400;
 }
-
-.vagas__imagem {
-    width: 80%;
-}
-
-
+ 
 
 .vagas {
     padding-top: 15vh;
@@ -122,6 +117,11 @@
 
 
 @media screen and (max-width: 768px) {
+    
+    .vagas__imagem {
+        width: 100%;
+    }
+    
     .vagas__categoria-cargos {
         text-align: center;
         width: 100%;

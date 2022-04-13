@@ -12,3 +12,11 @@
     color:  #98A2B3;
     margin-top: 3%;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .footer__direitos-reservados {
+        font-size: 3vw;
+    }
+    
+}
